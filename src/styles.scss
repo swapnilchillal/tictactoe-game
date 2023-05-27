@@ -55,18 +55,16 @@ button {
         margin-right: 4px;
         margin-bottom: 1px;
       }
-
-      .btn-move {
-        color: #fff;
-        &.active {
-          font-weight: bold;
-          color: $green;
-        }
-      }
     }
   }
 }
-
+.btn-move {
+  color: #fff;
+  &.active {
+    font-weight: bold;
+    color: $green;
+  }
+}
 .status-message {
   margin-bottom: 30px;
   font-size: 1.2rem;
