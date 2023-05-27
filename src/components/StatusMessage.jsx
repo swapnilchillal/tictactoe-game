@@ -12,7 +12,7 @@ const StatusMessage = ({ winner, gamingBoard }) => {
         <>
           {' '}
           Winner is{' '}
-          <span className={winner === 'X' ? 'text-green' : 'text-orange'}>
+          <span className={winner === 'X' ? 'text-green' : 'text-orange'} >
             {' '}
             {winner}{' '}
           </span>{' '}
